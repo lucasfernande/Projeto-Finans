@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- Font Awesome -->
-    <link href="fontawesome/fonts/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <title>Finans - finanças pessoais</title>
   </head>
   <body>
     
-    <header>
+    <header> <!-- logo e barra de navegação -->
 
       <nav class="navbar navbar-expand-sm navbar-light bg-warning">
 
@@ -41,24 +41,24 @@
             </ul>
           </div>
 
-        </div> <!-- fim container -->     
+        </div> <!-- fim container nav-->     
 
       </nav>
 
-    </header>
+    </header> <!-- fim logo e barra de navegação -->
 
     <section id="home">
       <div class="container">
         <div class="row">
           
-          <div class="jumbotron col-md-6 d-flex bg-warning">
+          <div class="col-md-6 d-flex">
             <div class="align-self-center">
               <h1 class="display-4">Suas contas, <br>descomplicadas</h1>
               <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.</p>
 
               <form class="mt-4">
                 <div class="input-group input-group-lg">
-                  <input type="text" placeholder="Seu E-mail" class="form-control">
+                  <input type="text" placeholder="Digite seu E-mail" class="form-control">
                   <div class="input-group-append">
                     <button type="button" class="btn btn-primary">Cadastre-se</button>
                   </div>
@@ -82,8 +82,134 @@
           </div>
 
         </div>
-      </div> <!-- fim container -->
+      </div> <!-- fim container home-->
     </section>
+
+    <section class="caixa"> <!-- seção saiba mais -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Saiba para onde vai o seu dinheiro</h2>
+              <p>Com o Finans, você categoriza todos os seus lançamentos.
+                 Com gráficos simples, você sabe de onde vem e para onde vai
+                 o seu dinheiro.
+               </p>
+                <a href="" class="btn btn-primary btn-lg">Veja mais</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/saiba.png" class="img-fluid">
+          </div>
+
+        </div>
+
+      </div> <!-- fim container -->
+
+    </section> <!-- fim seção saiba mais -->
+
+    <section class="caixa"> <!-- seção juros -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/juros.png" class="img-fluid">
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Pare de pagar juros e economize</h2>
+              <p>Manter as contas em dia é sempre um problema? O Finans avisa você:
+                 Receba alertas de contas a pagar e a receber
+              </p>
+              <a href="" class="btn btn-primary btn-lg">Veja mais</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div> <!-- fim container -->
+
+    </section> <!-- fim seção juros -->
+
+    <section class="caixa"> <!-- seção recursos -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4">
+            <img src="img/facil.png" class="img-fluid">
+            <h3>Fácil de usar</h3>
+            <p> 
+               O Finans vai além do básico e permite que você faça controles incríveis,
+               essenciais para suas finanças. Simples como tem que ser!
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <img src="img/economize.png" class="img-fluid">
+            <h3>Economize seu tempo</h3>
+            <p>
+               Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite
+               seu tempo com o que realmente importa pra você!
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <img src="img/suporte.png" class="img-fluid">
+            <h3>Suporte amigo</h3>
+            <p>
+               Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente
+               tá aqui pra resolver seus problemas e deixa sua vida bem mais fácil!
+            </p>
+          </div>
+
+      </div> <!-- fim container -->
+
+    </section> <!-- fim seção recursos -->
+
+    <footer class="mt-4 mb-4">
+
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-8">
+            <p>
+              <a href="">Home</a>
+              <a href="">Recursos</a>
+              <a href="">Benefícios</a>
+              <a href="">Preços</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-end">
+            
+            <a href="" class="text-dark">
+                  <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="" class="text-dark ml-3">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="" class="text-dark ml-3">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="" class="text-dark ml-3">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
